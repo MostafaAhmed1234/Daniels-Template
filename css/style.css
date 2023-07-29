@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Poppins&family=Source+Sans+Pro:wght@700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: #343434 !important;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+main {
+  background-color: #dee2e6;
+}
+
+footer {
+  background-color: black;
+}
+
+#about,
+#Works,
+#break,
+#Contact {
+  background-color: white;
+}
+
+/* heder*/
+header {
+  background-image: url(../img/img/bg.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.layer {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.header-content h1 {
+  font-size: 4.5rem;
+}
+
+.icon {
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+/* main*/
+
+.btn-outline-black {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btn-outline-black :hover {
+  background-color: white;
+  color: black;
+}
+
+.progress {
+  height: 30px !important;
+}
+.progress-bar {
+  background-color: black !important;
+}
+#about .item {
+  background-image: url(../img/img/dots.png);
+}
+
+#SERVICES h3::after {
+  content: "";
+  width: 200px;
+  height: 40px;
+  position: absolute;
+  top: 30px;
+  left: 42%;
+  background-image: url(../img/img/dots.png);
+}
+
+.icon-circle {
+  width: 80px;
+  height: 60px;
+  line-height: 70px;
+  background: #f4f4f4;
+  font-size: 2rem;
+  padding: 17px;
+  transition: all 0.5s;
+}
+
+.info-box {
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.info-box :hover .icon-circle,
+.box_box:hover .icon-circle {
+  background-color: black;
+  color: white;
+}
+
+#about img {
+  bottom: 25px;
+  left: 5px;
+}
+
+.caption {
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.product:hover .caption {
+  opacity: 1;
+}
+
+.myslide {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+}
+
+#Blogs .card .post-img {
+  overflow: hidden;
+}
+
+#Blogs .card {
+  transition: transform 1ms;
+}
+
+#Blogs .card:hover img {
+  transform: scale(1.2);
+}
+
+/* animation*/
+
+header h2::after {
+  content: "";
+  animation: typing 6s infinite;
+}
+@keyframes typing {
+  0% {
+    content: "";
+  }
+  2% {
+    content: "D";
+  }
+  4% {
+    content: "De";
+  }
+  6% {
+    content: "Des";
+  }
+  8% {
+    content: "Desi";
+  }
+  10% {
+    content: "Desig";
+  }
+  12% {
+    content: "Design";
+  }
+  14% {
+    content: "Designe";
+  }
+  16% {
+    content: "Designer";
+  }
+  18% {
+    content: "Designe";
+  }
+  20% {
+    content: "Design";
+  }
+  22% {
+    content: "Desig";
+  }
+  24% {
+    content: "Desi";
+  }
+  26% {
+    content: "Des";
+  }
+  28% {
+    content: "De";
+  }
+  30% {
+    content: "D";
+  }
+  32% {
+    content: "";
+  }
+  34% {
+    content: "D";
+  }
+  36% {
+    content: "De";
+  }
+  38% {
+    content: "Dev";
+  }
+  40% {
+    content: "Deve";
+  }
+  42% {
+    content: "Devel";
+  }
+  44% {
+    content: "Develo";
+  }
+  46% {
+    content: "Develop";
+  }
+  48% {
+    content: "Develope";
+  }
+  50% {
+    content: "Developer";
+  }
+  54% {
+    content: "Develope";
+  }
+  56% {
+    content: "Develop";
+  }
+  58% {
+    content: "Develo";
+  }
+  60% {
+    content: "Devel";
+  }
+  62% {
+    content: "Deve";
+  }
+  64% {
+    content: "Dev";
+  }
+  66% {
+    content: "De";
+  }
+  68% {
+    content: "D";
+  }
+  72% {
+    content: "";
+  }
+  74% {
+    content: "L";
+  }
+  76% {
+    content: "La";
+  }
+  78% {
+    content: "Lar";
+  }
+  80% {
+    content: "Larr";
+  }
+  82% {
+    content: "Larry";
+  }
+  84% {
+    content: "Larry D";
+  }
+  86% {
+    content: "Larry Da";
+  }
+  88% {
+    content: "Larry Dan";
+  }
+  90% {
+    content: "Larry Dani";
+  }
+  91% {
+    content: "Larry Danie";
+  }
+  92% {
+    content: "Larry Daniel";
+  }
+  93% {
+    content: "Larry Daniels";
+  }
+  94% {
+    content: "Larry Daniel";
+  }
+  95% {
+    content: "Larry Danie";
+  }
+  96% {
+    content: "Larry Dani";
+  }
+  97% {
+    content: "Larry Dan";
+  }
+  98% {
+    content: "Larry Da";
+  }
+  99% {
+    content: "Larry D";
+  }
+  99% {
+    content: "Larry ";
+  }
+  99% {
+    content: "Larr";
+  }
+  99% {
+    content: "Lar";
+  }
+  100% {
+    content: "La";
+  }
+  100% {
+    content: "L";
+  }
+  100% {
+    content: "";
+  }
+}
+/* end animation*/
